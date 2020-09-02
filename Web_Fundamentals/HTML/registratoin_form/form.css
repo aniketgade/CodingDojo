@@ -1,0 +1,33 @@
+
+
+label, input {
+    /* In order to define widths */
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 15%;
+    /* Positions the label text beside the input */
+    text-align: left;
+}
+
+label + input {
+    width: 20%;
+    /* Large margin-right to force the next element to the new-line */      
+}
+
+.radioDiv > label + input {
+    width: unset;
+}
+
+.radioDiv > label {
+    width: 5%;
+}
+
+
+
+textarea{
+    width: 30%;
+    margin-bottom: 15px;
+}
