@@ -1,0 +1,33 @@
+.container{
+    margin: 10%;
+}
+
+table,td,th{
+    border: 1px solid rgb(17, 17, 17);
+}
+
+td,th{
+    padding: 8px;
+}
+
+table{
+
+    margin: 50px 0;
+    clear: both;
+}
+
+img{
+    width: 800px;
+}
+
+.radioDiv{
+    margin-top: 15px;
+}
+
+.topPlayersDiv{
+    margin-bottom: 50px;
+}
+
+.surveyDiv{
+    margin-top: 50px;
+}
