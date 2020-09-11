@@ -1,0 +1,128 @@
+
+
+body{
+    margin: 50px;
+}
+
+#header{
+    padding: 20px;
+    width: 812px; /*This width has to match width in main_content*/
+    height: 35px;
+    position: relative;
+    background-color: rgb(245, 239, 239);
+}
+
+#footer{
+    padding: 20px;
+    width: 812px; /*This width has to match width in main_content*/
+    height: 50px;
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+}
+
+#footer>img{
+    height: 18px;
+    width: 18px;
+}
+
+#main_content{
+    background-color: rgb(71, 32, 38);
+    width: 812px;
+    height: 870px;
+    padding: 20px;
+}
+
+h2{
+    position: relative;
+    left: 275px;
+    display: inline;
+}
+
+h1{
+    position: relative;
+    display: inline;
+}
+
+
+
+#my_photo{
+    width: 375px;
+    height: 260px;
+    border-style: solid;
+    border-color: rgb(180, 174, 174);
+    border-width: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about_div{
+    width: 402px;
+    height: 270px;
+}
+
+.main_div{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.div_content{
+    background-color: rgb(214, 202, 202);
+    padding: 5px;
+    
+}
+
+.div_header{
+    background-color: rgb(180, 174, 174);
+    height: 25px;
+    padding: 5px;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+}
+
+
+.about_div>.div_content{
+    height: 225px;
+}
+
+
+.family_contacts_div{
+    margin: 0px 20px;
+}
+
+.picture_div>.div_content{
+    height: 200px;
+}
+
+.picture_div>.div_technologies{
+    height: 130px;
+}
+
+.picture_div{
+    width: 254px; /*any changes to this width has to match below image width*/
+}
+
+.div_technologies>img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+}
+
+.div_btn{
+    text-align: center;
+}
+.div_btn>button{
+    background-color: rgb(6, 85, 6);
+    color: white;
+    border-radius: 7px;
+}
+
+.image{
+    width: 254px;
+    height: 150px;
+
+    /*to make sure there is no white space below img. We want the img to stick to the div below */
+    display: block; 
+}
