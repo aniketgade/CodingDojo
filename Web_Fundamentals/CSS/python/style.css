@@ -5,7 +5,7 @@
 #top_div{
     background-color: rgb(4, 86, 153);
     color: white;
-    height: 500px;
+    height: 520px;
     padding: 10px;
 }
 
@@ -84,6 +84,10 @@
     list-style-position: inside;
 }
 
+#list_div_inline>ul>li{
+    margin: 10px 0;
+}
+
 #blue_content_inline{
     display: inline-block;
     text-align: center;
@@ -103,7 +107,7 @@
 }
 
 #middle_div{
-    margin-top: 20px;
+    margin-top: 10px;
     height: 280px;
     text-align: center;
 }
