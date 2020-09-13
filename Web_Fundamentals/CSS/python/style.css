@@ -1,0 +1,143 @@
+#wrapper{
+    width: 970px;
+}
+
+#top_div{
+    background-color: rgb(4, 86, 153);
+    color: white;
+    height: 500px;
+    padding: 10px;
+}
+
+#text-size-div{
+    text-align: right;
+    font-size: small;
+}
+
+#text-size-div>a{
+    color: rgb(185, 185, 13);
+}
+
+#python_and_search_div{
+    height: 110px;
+}
+
+#python_img{
+    width: 330px;
+    height: 100px;
+    float: left;
+    
+}
+
+#search_div{
+    display: inline-block;
+    background-color: rgb(83, 78, 78);
+    width: 270px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 340px;
+    margin-top: 10px;
+}
+
+#search_div>input{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 35px;
+    height: 30px;
+}
+
+#search_div>button{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    height: 30px;
+    background-color: rgb(4, 86, 153);
+    color: white;
+}
+
+#menu_div{
+    width: 840px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(56, 132, 245);
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#list_div_inline{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+#list_div_inline>ul>li>a{
+    color: white;
+}
+
+#list_div_inline>ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#blue_content_inline{
+    display: inline-block;
+    text-align: center;
+    width: 670px;
+    margin-left: 20px;
+    
+}
+
+#blue_content_inline_top{
+    margin-left: 10px;
+}
+
+#blue_content_inline_bottom{
+    color: yellow;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#middle_div{
+    margin-top: 20px;
+    height: 280px;
+    text-align: center;
+}
+
+.middle_sub_div{
+    display: inline-block;
+    width: 400px;
+    height: 100%;
+    margin: 0px 10px;
+    vertical-align: top;
+}
+
+.blue_text{
+    color: rgb(49, 157, 245);
+}
+
+.header{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(4, 86, 153);
+}
+
+.content{
+    width: 70%;
+}
+
+#bottom_div{
+    background-color: rgb(4, 86, 153);
+    color: lightblue;
+    height: 50px;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+}
+
+.font_size_17{
+    font-size: 17px;
+}
