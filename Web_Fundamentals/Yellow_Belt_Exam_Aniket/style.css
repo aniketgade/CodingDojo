@@ -1,0 +1,184 @@
+
+body{
+    padding: 20px;
+}
+
+#wrapper{
+    width: 1090px;
+    padding: 10px 10px 0 10px;
+    background-color: black;
+}
+
+#header{
+    background-color: rgb(31, 28, 28);
+}
+
+#header>img{
+    margin-left: 20px;    
+}
+
+#call_us_div{
+    color: rgb(192, 182, 182);
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 590px;
+    vertical-align: top;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+#picture_div{
+    padding-top: 20px;
+    background-color: rgb(31, 28, 28);
+}
+
+#menu>nav>ul :not(:last-child):not(:first-child) a::after{
+    content: '  \00BB';
+}
+
+
+#navbar_div{
+     display: inline-block;
+    width: 1010px;
+    margin-right: -4px; /*To eliminate the empty space between divs*/
+    border-right: 1px solid rgb(99, 96, 96);
+}
+
+/*This div is only for right corner divider on navbar*/
+#after_navbar_div{
+    display: inline-block;
+    height: 56px;
+    width: 59px;
+    background-color: #343a40;
+    vertical-align: bottom;
+}
+
+#menu a{
+    margin: 0 10px;
+}
+
+.bdr-right {
+    border-right: 1px solid rgb(99, 96, 96);
+  }
+
+#picture_div>img{
+    width: 100%;
+    height: 400px;
+}
+
+#picture_footer{
+    width: 100%;
+    height: 5px;
+    background-color: #343a40;
+}
+
+#below_picture_div{
+    padding-top:20px;
+    width: 100%;
+    height: 170px;
+    
+}
+
+.below_picture_sub_div{
+    display: inline-block;
+    margin: 10px;
+    width: 240px;
+}
+
+.below_picture_sub_div>img{
+    vertical-align: top;
+}
+
+.below_picture_sub_div_content{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(192, 182, 182);
+    
+    width: 175px;
+}
+
+.orange_text{
+    color: rgb(228, 113, 19);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#buy_div{
+    padding: 30px;
+}
+
+#buy_content{
+    color: rgb(192, 182, 182);
+    width: 65%;
+    display: inline-block;
+}
+
+#buy_div>button{
+    background-color: rgb(228, 113, 19);
+    color: rgb(192, 182, 182);
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 170px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#big_text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#portfolio_div{
+    background-color: rgb(31, 28, 28);
+    padding: 20px 0 0 16px;
+}
+
+#portfolio_header{
+    margin-bottom: 20px;;
+}
+
+#portfolio_header_left{
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    color: rgb(192, 182, 182);
+    margin-left: 10px;
+}
+
+#portfolio_header_right{
+    display: inline-block;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(228, 113, 19);
+    margin-left: 810px;
+}
+
+.portfolio_image_div{
+    display: inline-block;
+    margin: 10px;
+    width: 240px;
+}
+
+.portfolio_image_div img{
+    border: rgb(66, 65, 65) solid 5px;
+    margin-bottom: 10px;
+}
+
+.white_text{
+    color: rgb(192, 182, 182);
+}
+
+#back_to_top{
+    font-size: 12px;
+    color: rgb(122, 110, 110);
+    text-align: right;
+    margin-right: 20px;
+    padding: 10px 0 3px 0;
+}
+
+.orange_text_less{
+    color: rgb(228, 113, 19);
+    font-size: 18px;
+}
