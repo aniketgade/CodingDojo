@@ -1,0 +1,17 @@
+
+#wrapper{
+    width: 580px;
+    min-height: 275px;
+    background-color: rgb(199, 171, 140);
+    margin: 0px auto;
+    padding: 15px;
+   }
+
+   img{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(15, 116, 231);
+}
