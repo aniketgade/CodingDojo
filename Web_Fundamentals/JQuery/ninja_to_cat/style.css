@@ -1,0 +1,10 @@
+#wrapper{
+    width: 580px;
+    min-height: 275px;
+    margin: 0px auto;
+   }
+
+   img{
+       margin-bottom: 5px;
+       display: block;
+   }
