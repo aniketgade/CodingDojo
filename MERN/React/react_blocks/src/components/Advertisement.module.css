@@ -1,0 +1,7 @@
+.advertisement{
+    position: absolute;
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 12px;
+   }

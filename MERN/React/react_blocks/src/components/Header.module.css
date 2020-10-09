@@ -1,0 +1,9 @@
+.header{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 150px;
+    width: 910px;
+    background-color: green;
+    display: block;
+}
