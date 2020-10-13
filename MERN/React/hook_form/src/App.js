@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import UserForm from './components/UserForm';
+import Result from './components/Result';
 
 function App() {
+
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");  
+  const [confirmPassword, setConfirmPassword] = useState("");  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UserForm firstName = {firstName} setFirstName = {setFirstName} lastName = {lastName} setLastName = {setLastName} email = {email} setEmail = {setEmail} password = {password} setPassword = {setPassword} confirmPassword = {confirmPassword} setConfirmPassword = {setConfirmPassword} />
+
+      <Result firstName = {firstName} lastName = {lastName} email = {email} password = {password} confirmPassword = {confirmPassword}/>
     </div>
   );
 }
