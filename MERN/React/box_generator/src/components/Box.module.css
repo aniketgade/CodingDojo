@@ -1,0 +1,23 @@
+.boxForm{
+    margin-top: 50px;
+
+}
+
+.input{
+    margin-left: 15px;
+}
+
+.btn{
+    margin-left: 15px;
+}
+
+.boxContainer{
+    margin: 50px 100px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    display: inline-block;
+}
