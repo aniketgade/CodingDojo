@@ -1,0 +1,51 @@
+.form{
+    margin: 50px 200px 40px 200px;
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+
+.text{
+    font-size: large;
+}
+
+.slashedText{
+    font-size: large;
+    text-decoration: line-through;
+}
+
+.checkbox{
+    margin: 0 10px;
+}
+
+.deleteButton{
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+
+.noteRow{
+    margin: 10px 0;
+}
+
+.displayList{
+
+}
