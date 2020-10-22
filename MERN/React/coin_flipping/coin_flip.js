@@ -9,18 +9,18 @@ function fiveHeads(){
         while(headsCount < 5) {
             attempts++;
             let result = tossCoin();
-            console.log(`${result} was flipped`);
+            //console.log(`${result} was flipped`);
             if(result === "heads") {
                 headsCount++;
             } else {
                 headsCount = 0;
             }
         }
-        if(headsCount >= 5){
+        if(attempts < 100 && headsCount == 5){
         resolve(`It took ${attempts} tries to flip five "heads"`);
         }
         else{
-            reject("There was an issue");
+            reject(`It took more than 100 attempts (${attempts})`);
         }
     });
 }
